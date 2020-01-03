@@ -2,7 +2,7 @@
 
 exports[`should render ExpenseList with expenses 1`] = `
 <div>
-  <li
+  <p
     key="1"
   >
     <ExpenseListItem
@@ -12,8 +12,8 @@ exports[`should render ExpenseList with expenses 1`] = `
       id="1"
       note=""
     />
-  </li>
-  <li
+  </p>
+  <p
     key="2"
   >
     <ExpenseListItem
@@ -23,8 +23,8 @@ exports[`should render ExpenseList with expenses 1`] = `
       id="2"
       note=""
     />
-  </li>
-  <li
+  </p>
+  <p
     key="3"
   >
     <ExpenseListItem
@@ -34,7 +34,7 @@ exports[`should render ExpenseList with expenses 1`] = `
       id="3"
       note=""
     />
-  </li>
+  </p>
 </div>
 `;
 
