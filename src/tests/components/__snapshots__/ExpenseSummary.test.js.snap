@@ -4,9 +4,9 @@ exports[`should render correctly when multiple expenses are added 1`] = `
 <div>
   <p>
     
-                        Viewing 3 
+                        Viewing 5 
                         expenses 
-                        totallng $1,141.95
+                        totalling $50.00
                     
   </p>
 </div>
@@ -14,4 +14,14 @@ exports[`should render correctly when multiple expenses are added 1`] = `
 
 exports[`should render correctly when no expenses are added 1`] = `<div />`;
 
-exports[`should render correctly when single expense is added 1`] = `<div />`;
+exports[`should render correctly when single expense is added 1`] = `
+<div>
+  <p>
+    
+                        Viewing 1 
+                        expense 
+                        totalling $0.25
+                    
+  </p>
+</div>
+`;
